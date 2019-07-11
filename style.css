@@ -21,3 +21,8 @@ p {
   border-color: #FFFFFF;
   border:"white";
 }
+
+.content {
+  display:block;
+
+}
