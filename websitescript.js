@@ -6,18 +6,17 @@ function makeBigger(x) {
 
 function normalImg(x) {
   x.style.width = "200px";
-  x.style.height = "200.px";
+  x.style.height = "200px";
 }
 
 function showHideSection(x) {
-  var x = document.getElementById(x);
-  if (x.style.display == "none"){
-    x.style.display = "block";
-    document.getElementById("Hide Bio").innerHTML=("Hide Bio");
+  var y = document.getElementById(x);
+  if (y.style.display == "none"){
+    y.style.display = "block";
+    document.getElementById("show/hide").innerHTML="Hide Bio";
   }
   else{
-    x.style.display = "none";
-    document.getElementById("Show Bio").innerHTML=("Show Bio");
+    y.style.display = "none";
+    document.getElementById("show/hide").innerHTML="Show Bio";
   }
-
 }
